@@ -4,168 +4,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="index.css">
 
-    <title>Document</title>
 </head>
 
 <body>
     <div class="body">
         <div class="Header">
-            <div id="HeadDiv">ILESANMI ATINUKE</div>
+            <div id="HeadDiv"><a href="#welcomeDiv">ILESANMI ATINUKE</a></div>
             <nav id="nav">
-                <span id="a"><a href="#AboutMe">About Me</a></span>
-                <span id="a"><a href="#WelcomePage">Resume</a></span>
-                <span id="a"><a href="#Sk">Skills</a></span>
-                <span id="a"><a href="#ProjectT">Projects</a></span>
-                <span id="a"><a href="#ContactLabel">Contact Me</a></span>
+                <div class="link">
+                    <span id="a"><a href="#About">About Me</a></span>
+                    <div class="line"></div>
+                </div>
+                <div class="link">
+                    <span id="a"><a href="#Sk">Skills</a></span>
+                    <div class="line"></div>
+                </div>
+                <div class="link">
+                    <span id="a"><a href="#ProjectT">Projects</a></span>
+                    <div class="line"></div>
+                </div>
+                <div class="link">
+                    <span id="a"><a href="#ContactLabel">Contact Me</a></span>
+                    <div class="line"></div>
+                </div>
             </nav>
         </div>
 
-        <div id="WelcomePage">
-            <div id="WelcomePageDiv">
-                <div id="Greeting">Hi there, my name is <br>Ilesanmi Atinuke </div>
+        <div id="WelcomePageDiv">
+            <div id="WelcomePage">
+                <div id="Greeting">Hello there! I am Atinuke Ilesanmi</div>
+                <!-- <span id="name">Atinuke Ilesanmi </span> -->
+                <div id="Title"> Software Developer </div>
+                <p>
+                    I craft high-quality applications and solve problems using web technologies,<br> to
+                    ensure client satisfaction. I love to build innovative products that meet <br> client needs effectively.</p>
 
-                <div id="Title"> A SoftWare Developer </div>
-                <p id="brief">
-                    I am a passionate and dedicated professional with a strong
-                    interest <br>in creating functional and visually appealing websites, <br>
-                    using web technologies for user friendly interface and problem-solving designs.
-                </p>
-                <button id="hireBtn">View Resume</button>
+                <div id="hireBtn_Div">
+                    <div id="hireBtn_Div1">
+                        <a href="./ILESANMI ATINUKE Software Developer resume.pdf" target="_blank"> <button
+                                id="hireBtn1">Download CV</button></a>
+                    </div>
+
+                    <!-- <div id="hireBtn_Div1">
+                        <button id="hireBtn2">My Works</button>
+                    </div> -->
+                </div>
             </div>
+
             <div id="image">
-                <img src="./Picture.png" alt="" style="height: 400px; width: 400px;">
+                <img src="./images/myPic1.jpeg" alt="" id="imaage" style="height: 400px; width: 400px;">
             </div>
-
         </div>
 
+        <div id="AboutMeDiv">
+
+
+            <div id="AboutDIv">
+                <div id="titleDiv">
+                    <p id="About">ABOUT ME</p>
+                </div>
+                <div id="AboutMeWrap">
+                    <p id="brief">
+                        My name is Atinuke Ilesanmi a dedicated  entry level software developer with a focus on delivering high-quality solutions. <br>
+                        I am passionate about creating seamless user experiences
+                        through efficient code and intuitive design. <br>
+                        I've demonstrated my skills in HTML, CSS, JavaScript, and React through hands-on projects and coursework.  <br>My journey in technology has sharpened my problem-solving and collaborative abilities, fueling my passion for innovation. <br>
+                        With a commitment to excellence and a drive for innovation, <br>
+                        I am ready to tackle new challenges and contribute positively to any project. <br>
+                        I am constantly seeking avenues to expand my skill set and contribute meaningfully to dynamic teams.
+                    </p>
+
+                    <!-- <button id="viewBtn"> Connect with me</button> -->
+
+                </div>
+            </div>
+        </div>
 
         <div class="Skills">
-            <h1 id="Sk">Skills</h1>
+            <h1 id="Sk">SKILLS</h1>
             <p id="skillsP">I have a vast experience in the following web technologies:</p>
             <div class="skillImage">
-                <img src="./html.png" alt="" height="100px" width="100px"> <br> <span id="Sp">HTML</span>
-                <img src="./img1.png" alt="" height="100px" width="100px"> <br> <span id="Sp">CSS</span>
-                <img src="./js.png" alt="" height="100px" width="100px"> <br> <span id="Sp">JavaScript</span>
-                <img src="./react.png" alt="" height="100px" width="100px"> <br> <span id="Sp">REACT</span>
-                <img src="./nodeJs.png" alt="" height="100px" width="100px"> <br><span id="Sp">NODE.JS</span>
-                <img src="./github.png" alt="" height="100px" width="100px"> <br><span id="Sp">GITHUB</span>
-                <img src="./figma-logo.png" alt="" height="100px" width="100px"> <br><span id="Sp">FIGMA</span>
-            </div>
-        </div>
+                <div id="skill1">
+                    <div class="SkImage">
+                        <img src="./skills/html.png" alt="" height="150px" width="150px"> <br> <span id="Sp">HTML</span>
+                    </div>
 
+                    <div class="SkImage">
+                        <img src="./skills/img1.png" alt="" height="150px" width="150px"> <br> <span id="Sp">CSS</span>
+                    </div>
+
+                    <div class="SkImage">
+                        <img src="./skills/js.png" alt="" height="150px" width="150px"> <br> <span id="Sp">JavaScript</span>
+                    </div>
+
+                    <div class="SkImage">
+                        <img src="./skills/nodeJs.png" alt="" height="150px" width="150px"> <br><span id="Sp">NODE.JS</span>
+                    </div>
+                </div>
+
+                <div id="skill2">
+                    <div class="SkImage">
+                        <img src="./skills/react.png" alt="" height="150px" width="150px"> <br><span id="Sp">REACT</span>
+                    </div>
+
+                    <div class="SkImage">
+                        <img src="./skills/github.png" alt="" height="150px" width="150px"> <br><span id="Sp">GITHUB</span>
+                    </div>
+
+                    <div class="SkImage">
+                        <img src="./skills/figma-logo.png" alt="" height="150px" width="150px"> <br><span id="Sp">FIGMA</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         <div class="projectPage">
             <div id="ProjectT"> PROJECTS</div>
-            <div id="ProjectSpan">
-                <span> These are some of my best projects. I have built these with HTML,CSS and React. Check them
-                    out.</span>
-            </div>
             <div class="PImages">
                 <div id="PImages1">
-                    <img id="pImages1" src="./project1.png" alt="" height="300px" width="400px"> <br>
-                    <span id="PImages1Span">Made this template using HTML and CSS</span> <br>
-                    <button id="PImages1Btn">learn More</button> <br>
-
+                    <img id="pImages1" src="./images/project1.png" alt=""> <br>
+                    <span id="PImagesSpan">Made this template using HTML and CSS</span> <br>
+                    <button id="PImagesBtn">View in github</button> <br>
                 </div>
                 <div id="PImages2">
-                    <img id="pImages2" src="./project2.png" alt="" height="100px" width="100px"><br>
-                    <span id="PImages2Span">Made this template using HTML and CSS</span> <br>
-                    <button id="PImages2Btn">learn More</button> <br>
+                    <img id="pImages2" src="./images/project2.png" alt=""><br>
+                    <span id="PImagesSpan">Made this template using HTML and CSS</span> <br>
+                    <button id="PImagesBtn">View in github</button> <br>
                 </div>
-                <br>
                 <div id="PImages3">
-                    <img id="pImages3" src="./project3.png" alt="" height="100px" width="100px"> <br>
-                    <span id="PImages3Span">Made this template using HTML and CSS</span> <br>
-                    <button id="PImages3Btn">learn More</button>
+                    <img id="pImages3" src="./images/project3.png" alt=""> <br>
+                    <span id="PImagesSpan">Made this template using HTML and CSS</span> <br>
+                    <button id="PImagesBtn">View in github</button>
                 </div>
 
-                <!-- <div id="PImages4">
-                        <img id="p4" src="./project4.png" alt="" height="100px" width="100px"> <br>
-                        <span>Made a social media manager  <br>template using HTML and CSS</span> <br>
-                        <button>learn More</button> <br> -->
-                <!-- </div> -->
             </div>
-
-            <div id="AboutMe">
-
-
-                <div id="About">ABOUT ME</div>
-                <div id="AboutMeWrap">
-                    <p id="firstP">
-                        My name is Ilesanmi Atinuke,
-                        A seasoned Software Developer with a passion for crafting.
-                        As a passionate and dedicated professional individual,
-                        I am highly motivated to create functional and visually appealing websites. With expertise in
-                        user interface design and problem-solving,
-                        I excel at utilizing HTML, CSS,JavaScript, typscript and REACT to enhance user experiences and
-                        address their
-                        needs.
-                        I have a deep understanding of how to design and implement intuitive interfaces
-                        that facilitate smooth navigation and engage users effectively.
-                        Constantly staying updated with the latest trends and best practices,
-                        I am committed to delivering high-quality websites that exceed client expectations.
-                    </p>
-                    <div id="secondP">
-                        <div id=" soft">Soft Skills </div>
-
-                        <br>
-                         Excellent written and verbal communication skills. <br>
-                         Team Collaboration: Effective collaboration with cross-functional teams, including developers, Administrators, and operations personnel <br>
-                         Problem-Solving: Strong analytical and problem-solving skills to troubleshoot technical issues and design effective solutions. <br>
-                         Ability to manage and handle sensitive information with utmost discretion. <br>
-                         Good customer service management. <br>
-                         An excellent team player. <br>
-                         Relationship management. <br>
-                         Time management. <br>
-                         Attention to detail. <br>
+        </div>
 
 
-                    </div>
+        <div id="ContactDiv">
+            <label id="ContactLabel"> CONTACT ME</label>
 
-                </div>
-                <!-- <button id="viewBtn">VIEW RESUME</button> -->
-            </div>
-
-
-            <div id="ContactDiv">
-                <label id="ContactLabel"> Contact Me</label><br><br>
-
-                <form id="ContactForm">
-                    <label id="label"> Full Name:</label>
-                    <input type="fullName" id="fullName" name="fullName" />
-                    <br />
-                    <label id="label"> Email Address:</label>
-                    <input type="email" id="emailAdd" name="email" />
-                    <br />
-                    <label id="label"> Phone Number:</label>
-                    <input type="number" id="phoneNumber" name="phoneNumber" />
-                    <br />
-                    <label id="messageLabel"> Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10"
-                        placeholder="Write your Message:"></textarea>
-                    <br /> 
-                    <button id="Submit">Submit</button>
-                </form>
-
-
-            </div>
-
-            <div id="SocialMedia">
-                
-                <div id="social">My Social Media Links:  More projects I’ve worked on,check my github @atynuke</div>
-               
-               <div id="socialIcons">
-                   <img src="./Social1.png" alt="">
-                   <img src="./Social2.png" alt="">
-                   <img src="./Social3.png" alt="">
-                   <img src="./Social1.png" alt="">
-               
-               </div>
-            </div>
+            <form id="ContactForm">
+                <label id="label"> Full Name:</label>
+                <input type="fullName" id="fullName" class="input" name="fullName" />
+                <br /> <br>
+                <label id="label"> Email Address:</label>
+                <input type="email" id="emailAdd" class="input" name="email" />
+                <br /> <br>
+                <label id="label"> Phone Number:</label>
+                <input type="number" id="phoneNumber" class="input" name="phoneNumber" />
+                <br /> <br>
+                <label id="label"> Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your Message:"></textarea>
+                <br /> <br>
+                <button id="Submit">Submit</button>
+            </form>
 
         </div>
+
+        <br> <br> <br>
+        <div id="SocialMedia">
+            <div id="socialDiv">
+                <div id="social"> For more projects I’ve worked on,check my github @atynuke</div> <br>
+                <div id="socialIcons">
+                    <img src="./socials/Social1.png" alt="">
+                    <img src="./socials/basil_gmail-solid.svg" alt="">
+                    <img src="./socials/Social2.png" alt="">
+                </div>
+            </div>
+            <div class="line1"></div>
+            <div id="copyright">Copyright ©2024 All rights reserved | This template is made by Atinuke Ilesanmi</div>
+
+            <div id="copyDiv">
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
 </body>
 
 </html>

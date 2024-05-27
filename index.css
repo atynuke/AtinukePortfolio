@@ -413,3 +413,95 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+
+
+
+@media (max-width: 576px) {
+
+    #Header,
+    #SocialMedia #nav {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+
+    }
+
+    #WelcomePageDiv {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        display: grid;
+    }
+
+    #WelcomePage p {
+        font-size: 14px;
+    }
+
+    #WelcomePage #Greeting {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    #WelcomePage #Title {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #AboutDIv {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #About {
+        font-size: 20px;
+    }
+
+    #brief {
+        font-size: 15px;
+    }
+
+    .projectPage {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .Skills {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+    #Sk {
+        font-size: 20px;
+    }
+
+    #skillsP {
+        font-size: 15px;
+    }
+
+    #ContactForm {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+
+    }
+
+
+}
+
+/* .skillImage {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    /* display: none;
+    flex-direction: row; */
